@@ -1,4 +1,6 @@
-The average of the positive points for the whole sample is calculated. The same with negative points. When the difference between the ones is minus than a given parameter the signal is supposed to not exist. 
+The average of the positive points for the whole sample is calculated. The same with negative points. 
+When the difference between the ones is minus than a given parameter the signal is supposed to not exist. 
 Otherwise if the difference is positive the signal is positive and viceversa.
 
-The given parameter is calculated out by generating a sequence of random numbers gotten straightforward from a normal distribution sample (also generated). Such a sequence satisfies being less than the minimum absolute value of all the points.
+The given parameter is calculated out by generating a sequence of random numbers gotten straightforward from a normal distribution 
+sample (also generated). Such a sequence satisfies being less than the minimum absolute value of all the points.
