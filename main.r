@@ -13,20 +13,20 @@ noise <- function(x, multiplier=0.5) {
 }
 
 averagesMethod <- function(x){
-	pos <- x > 0
-	neg <- x < 0
-	
-	sumPos <- sum(pos)
-	sumNeg <- sum(neg)
-	
-	avPos <- sumPos / length(pos)
-	avNeg <- sumNeg / length(neg)
-	
-    if (avPos > avNeg) {
-	  return(+1)
-    } else {
-	  return(-1)
-    }
+  pos <- x > 0
+  neg <- x < 0
+
+  sumPos <- sum(pos)
+  sumNeg <- sum(neg)
+
+  avPos <- sumPos / length(pos)
+  avNeg <- sumNeg / length(neg)
+
+  if (avPos > avNeg) {
+    return(+1)
+  } else {
+    return(-1)
+  }
 }
 
 detect <- function(y) {
